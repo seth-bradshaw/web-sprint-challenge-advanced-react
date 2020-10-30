@@ -105,7 +105,7 @@ const plantsData = [
     light: "indirect",
     img:
       "https://cdn.shopify.com/s/files/1/2781/9558/products/FERN_STAGHORN-11_800x.png?v=1587427931",
-    sizes: ["small"],
+    sizes: ['small'],
     watering: 2,
     description:
       "Originally from South Africa, Jade loves sun-drenched beaches, the occasional surf, and sandy soils. Too much water too often doesn't sit well with her, so maybe offer her a beer? (Please don't give your plants beer).",

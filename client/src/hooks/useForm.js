@@ -5,15 +5,15 @@ const useForm = (initialValue) => {
     const [showSuccessMessage, setShowSuccessMessage] = useState(false);
     const [values, setValues] = useState(initialValue);
 
-    const onChanges = (e) => {
+    const handleChanges = (e) => {
         setValues({ ...values, [e.target.name]: e.target.value });
     };
 
-    const onSubmit = (e) => {
+    const handleSubmit = (e) => {
         e.preventDefault();
         setShowSuccessMessage(true);
     };
 
-    return [values, onChanges, onSubmit, showSuccessMessage]
+    return [values, handleChanges, handleSubmit, showSuccessMessage]
 }
 export default useForm
